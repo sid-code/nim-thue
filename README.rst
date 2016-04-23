@@ -22,7 +22,7 @@ Compiling
 ---------
 
 .. code:: plain
-  $ nim c -d:release thue.nim
+$ nim c -d:release thue.nim
 
 This creates an executable in your directory called `thue`.
 
@@ -30,14 +30,14 @@ Running
 -------
 
 .. code:: plain
-  $ ./thue [options] program.t
-    options:
-      -l, --left-to-right         Apply rules deterministically left to right
-      -r, --right-to-left         Apply rules deterministically right to left
-      -d, --debug                 Debug the program
+$ ./thue [options] program.t
+  options:
+    -l, --left-to-right         Apply rules deterministically left to right
+    -r, --right-to-left         Apply rules deterministically right to left
+    -d, --debug                 Debug the program
 
-      -nn, --no-newlines          Don't print newlines along with ~ directives,
-                                  instead only print newlines when ~ is alone
+    -nn, --no-newlines          Don't print newlines along with ~ directives,
+                                instead only print newlines when ~ is alone
 
 
 There are example programs in the ``examples`` directory.
