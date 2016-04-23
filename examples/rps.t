@@ -1,0 +1,20 @@
+P::=:::
+C::=r
+C::=p
+C::=s
+r:p::=l
+p:s::=l
+s:r::=l
+p:r::=w
+s:p::=w
+r:s::=w
+r:r::=t
+p:p::=t
+s:s::=t
+l::=~You lose.
+w::=~You win!
+t::=~It was a tie.
+__::=_P:C_
+__::=_P:C_
+::=
+_P:C_

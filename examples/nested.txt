@@ -1,0 +1,4 @@
+When this program runs, it eats up the parens until a whole balanced pair has
+been eaten. This is then output.
+
+Run with -nn flag to see output correctly.

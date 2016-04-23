@@ -1,0 +1,6 @@
+Play rock-paper-scissors against the computer.
+
+At every step, enter r, p, or s to play the corresponding move. Anything else
+will cause the program to terminate.
+
+Run with no extra flags (./thue examples/rps.t)

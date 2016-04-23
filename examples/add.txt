@@ -1,0 +1,6 @@
+Adds two binary numbers. The resulting number is placed on the tape so to see
+it you need to run it with the -d flag: ./thue -d examples/add.t
+
+Hint: if you don't want to keep pressing enter at every step, do: 
+
+  $ ./thue -d examples/add.t < /dev/urandom # (or whatever)
