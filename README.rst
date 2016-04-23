@@ -21,7 +21,7 @@ Usage
 Compiling
 ---------
 
-.. code::
+.. code:: plain
   $ nim c -d:release thue.nim
 
 This creates an executable in your directory called `thue`.
@@ -29,7 +29,7 @@ This creates an executable in your directory called `thue`.
 Running
 -------
 
-.. code::
+.. code:: plain
   $ ./thue [options] program.t
     options:
       -l, --left-to-right         Apply rules deterministically left to right
